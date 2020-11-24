@@ -2,7 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Top from '@/components/Top'
 import Profile from '@/components/Profile'
-import Skill from '@/components/Skill'
+import Experience from '@/components/Experience'
 import Output from '@/components/Output' //①import
 
 
@@ -17,9 +17,9 @@ export default new Router({
     },
 
     {
-      path: '/skill',
-      name: 'Skill',
-      component: Skill
+      path: '/Experience',
+      name: 'Experience',
+      component: Experience
     },
 
     {

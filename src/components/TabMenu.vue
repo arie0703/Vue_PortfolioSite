@@ -1,4 +1,5 @@
 <template>
+
   <div>
     <ol>
       <li v-for="(item, index) in items" :key=index>
@@ -8,8 +9,9 @@
       </li>
     </ol>
   </div>
-</template>{{
 
+</template>
+{{
 <script>
 export default {
   name: 'TabMenu',
@@ -18,7 +20,7 @@ export default {
       items: [
         { title: 'top', path: '/' },
         { title: 'profile', path: '/profile' },
-        { title: 'experience', path: '/skills' },
+        { title: 'experience', path: '/experience' },
         { title: 'works', path: '/outputs' }
       ]
     }
