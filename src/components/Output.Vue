@@ -5,7 +5,6 @@
      <p class="language">使用技術: {{work.language}}</p>
      <p>{{work.text}}</p>
      <a v-bind:href=work.url></a>
-     
   </div>
   </div>
 </template>{{
@@ -70,6 +69,5 @@ p {
   display: inline-block;
   text-align: left;
 }
-
 
 </style>
