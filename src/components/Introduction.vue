@@ -1,5 +1,5 @@
 <template>
-    <div class="component">
+    <div class="component" id="2">
         <p class=title>Introduction</p>
 
         <div class="profile-wrapper">

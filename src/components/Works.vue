@@ -1,5 +1,5 @@
 <template>
-    <div class="component">
+    <div class="component" id="3">
         <p class="title">Works</p>
 
         <div class="works-wrapper">
@@ -107,6 +107,11 @@ window.onload = function() {
         height: 200px;
         object-fit: cover;
         cursor : pointer;
+    }
+    
+    img:hover {
+        transform:scale(1.08,1.08);
+        transition: 0.3s;
     }
 
     .d-wrapper {
