@@ -1,28 +1,32 @@
 <template>
   <div id="app">
     <Header></Header>
+    <Nav></Nav>
     <Introduction></Introduction>
     <Works></Works>
     <Skill></Skill>
+    <Contact></Contact>
   </div>
 </template>
 
 <script>
 
-import TabMenu from '@/components/TabMenu'
 import Header from '@/components/Header'
+import Nav from '@/components/Nav'
 import Introduction from '@/components/Introduction'
 import Works from '@/components/Works'
 import Skill from '@/components/Skill'
+import Contact from '@/components/Contact'
 
 export default {
   name: 'App',
   components: {
-    TabMenu,
+    Nav,
     Header,
     Introduction,
     Works,
-    Skill
+    Skill,
+    Contact
   }
 }
 </script>
@@ -35,21 +39,21 @@ export default {
 }
 
 .component {
-    padding: 30px 0px;
+  padding: 80px 0px;
 }
 
 body {
   background-color: #000000;
-  margin: 0;
-  top: 0;
+  margin: 0px;
+  padding: 0px;
 }
+
 #app {
-  margin: 0 auto;
+  margin: auto;
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  margin-top: 60px;
 }
 
 a {

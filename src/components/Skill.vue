@@ -1,5 +1,5 @@
 <template>
-    <div class="component">
+    <div class="component" id="4">
         <p class="title">Skill</p>
 
         <div class="skill-wrapper">

@@ -1,5 +1,5 @@
 <template>
-<div>
+<div id="1">
     <img src="../assets/light_hand.jpeg">
     <p>AK's Portfollio</p>
 </div>
@@ -15,7 +15,9 @@ export default {
 <style scoped>
 
     div {
-        height: 600px;
+        height: 560px;
+        padding: 0;
+        margin: 0;
     }
     img {
         width: 100%;
