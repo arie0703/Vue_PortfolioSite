@@ -3,10 +3,17 @@
         <p class="title">Contact</p>
 
         <div class="contact-form">
+            
+            <v-btn @click="sendMail"><v-icon>mail</v-icon>メール送信</v-btn>
 
         </div>
     </div>
 </template>
+
+<script>
+
+
+</script>
 
 <style scoped>
 
