@@ -6,7 +6,7 @@
                 <li><a href="#2">Introduction</a></li>
                 <li><a href="#3">Works</a></li>
                 <li><a href="#4">Skill</a></li>
-                <li><a href="#5">Contact</a></li>
+                <li><a href="#5">Links</a></li>
             </nav>
         </div>
 
