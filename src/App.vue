@@ -5,7 +5,7 @@
     <Introduction></Introduction>
     <Works></Works>
     <Skill></Skill>
-    <Contact></Contact>
+    <Links></Links>
   </div>
 </template>
 
@@ -16,7 +16,7 @@ import Nav from '@/components/Nav'
 import Introduction from '@/components/Introduction'
 import Works from '@/components/Works'
 import Skill from '@/components/Skill'
-import Contact from '@/components/Contact'
+import Links from '@/components/Links'
 
 export default {
   name: 'App',
@@ -26,7 +26,7 @@ export default {
     Introduction,
     Works,
     Skill,
-    Contact
+    Links
   }
 }
 </script>

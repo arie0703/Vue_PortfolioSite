@@ -1,7 +1,7 @@
 <template>
 <div id="1">
     <img src="../assets/light_hand.jpeg">
-    <p>AK's Portfolio</p>
+    <p>K.A. Portfolio</p>
 </div>
     
 </template>
