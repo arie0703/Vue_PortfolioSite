@@ -37,4 +37,20 @@ export default {
         top: 400px;
         left: -200px;
     }
+
+    @media screen and (max-width: 600px){ 
+        div {
+            height: 270px;
+        }
+        img {
+            height: 300px;
+        }
+        p {
+            font-size: 30px;
+            top: 180px;
+            left: -20px;
+        }
+    }
+
+    
 </style>
