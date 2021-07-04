@@ -20,12 +20,14 @@
     
         $(window).on("scroll", function() {
             let currentPos = $(window).scrollTop();
-            if(currentPos > target) {
-                $(".nav-menu").addClass('sticky');
-                $(".space").css("display", "block");
-            } else{
-                $(".nav-menu").removeClass('sticky');
-                $(".space").css("display", "none");
+            if (window.matchMedia('(min-width:600px)').matches) { //スマホではnavが画面上部に張り付く処理を発生させない。
+                if(currentPos > target) {
+                    $(".nav-menu").addClass('sticky');
+                    $(".space").css("display", "block");
+                } else{
+                    $(".nav-menu").removeClass('sticky');
+                    $(".space").css("display", "none");
+                }
             }
         });
     });
@@ -83,6 +85,31 @@ nav li a {
     font-size: 18px;
 }
 
+@media screen and (max-width: 600px){ 
+    .nav-menu {
+        height: 60px;
+    }
+    nav {
+        padding-left: 10px;
+        display: inline;
+        text-align: center;
+    }
+    nav li {
+        width: 20px;
+        display: inline;
+    }
+    nav li a {
+        padding: 10px 12px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 350px){
+    nav li a {
+        padding: 10px 6px;
+    }
+
+}
 
 
 

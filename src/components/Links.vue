@@ -95,4 +95,19 @@ a:hover {
     background: #5797d6;
     transition: 0.5s;
 }
+
+@media screen and (max-width: 600px){ 
+    .links {
+        width: 100%;
+    }
+    .link {
+        height: 60px;
+        width: 60px;
+    }
+    .link i {
+        font-size: 30px;
+        height: 60px;
+        line-height: 60px;
+    }
+}
 </style>

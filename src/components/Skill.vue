@@ -36,4 +36,14 @@ img {
     height: 100%;
     object-fit: cover;
 }
+
+@media screen and (max-width: 600px){ 
+    img {
+        margin: auto 10px;
+        max-width: 50px;
+    }
+    .language, .framework{
+        max-width: 100%;
+    }
+}
 </style>

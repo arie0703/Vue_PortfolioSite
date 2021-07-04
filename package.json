@@ -12,6 +12,7 @@
   "dependencies": {
     "axios": "^0.21.0",
     "firebase": "^8.2.9",
+    "firebase-functions": "^3.14.1",
     "vue": "^2.5.2",
     "vuetify": "^2.4.5"
   },

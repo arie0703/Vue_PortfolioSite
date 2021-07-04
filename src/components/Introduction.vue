@@ -53,4 +53,15 @@ img {
 .intro p {
     margin: 0;
 }
+
+@media screen and (max-width: 600px){ 
+    .profile-wrapper {
+        display: block;
+        width: 100%;
+    }
+    .img-wrapper, .profile {
+        width: 70%;
+        margin: 0 auto;
+    }
+}
 </style>

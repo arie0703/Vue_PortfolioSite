@@ -65,4 +65,14 @@ a:hover {
   color: orange;
   transition: 0.5s;
 }
+
+@media screen and (max-width: 600px){ 
+  .component {
+    padding: 30px 0px;
+  }
+  
+  .title {
+    font-size: 32px;
+  }
+}
 </style>
